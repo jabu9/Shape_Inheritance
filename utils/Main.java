@@ -72,7 +72,7 @@ public class Main {
 		};
 		
 		// Triangle
-		final MenuEntryConsole traingleEntry = new MenuEntryConsole("Traingle", inputScanner) {
+		final MenuEntryConsole triangleEntry = new MenuEntryConsole("Triangle", inputScanner) {
 
 			@Override
 			public Shape get() {
@@ -132,7 +132,7 @@ public class Main {
 		};
 		
 		// Updated shapeEntrys
-		final MenuEntry<Shape>[] entries = new MenuEntryConsole[] { circleEntry, rectangleEntry, squareEntry, traingleEntry, 
+		final MenuEntry<Shape>[] entries = new MenuEntryConsole[] { circleEntry, rectangleEntry, squareEntry, triangleEntry, 
 				sphereEntry, cubeEntry, coneEntry, cylinderEntry, torusEntry};
 		final ArrayList<Shape> main = new ArrayList<>();
 		try {
